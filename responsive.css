@@ -1,0 +1,99 @@
+body{
+    background: url(./bg-intro-desktop.png);
+    background-color: pink;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#showcase p{
+    font-size: 20px;
+    text-align: center;
+}
+#newsletter .button{
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    padding: 2vmin 2vmin;
+    border-radius: 1vmin;
+    font-size: 2vmin ;
+    display: inline-block;
+    width:100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#newsletter a{
+    color: #fff;
+    text-align: center;
+    line-height: 13px;
+
+}
+ #newsletter .button:hover{
+    background-color: red
+ }
+ #box{
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: auto ;
+    margin-right: auto;
+ }
+ input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 7px;
+    margin: 0 auto 0 auto;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+     .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ 
